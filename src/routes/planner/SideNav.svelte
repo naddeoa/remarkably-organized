@@ -306,7 +306,8 @@
 			}
 		}
 		a.highlight {
-			--tab-background: #cccccc;
+			--tab-background: #4a44fd;
+            color: var(--bg-low);
 			border-top-right-radius: 0;
 			border-bottom-right-radius: 0;
 			background-color: var(--tab-background);
@@ -316,6 +317,7 @@
 				height: calc(2 * var(--radius));
 				width: var(--radius);
 				position: absolute;
+                opacity: 0;
 			}
 			&::before {
 				right: 0;
@@ -341,6 +343,8 @@
 			}
 		}
 		a.active {
+            color: var(--bg-low);
+            background-color: #f53131;
 			border-top-right-radius: 0;
 			border-bottom-right-radius: 0;
 			box-shadow: 1px 0 var(--bg);
@@ -351,6 +355,7 @@
 				height: calc(2 * var(--radius));
 				width: var(--radius);
 				position: absolute;
+                opacity: 0;
 			}
 			&::before {
 				right: 0;

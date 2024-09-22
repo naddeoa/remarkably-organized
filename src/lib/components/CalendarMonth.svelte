@@ -78,7 +78,7 @@
 	{#if showNotes}
 		<div class="notes">
 			<h3>Notes</h3>
-			<Grid display="dotted" />
+			<Grid display="blank" />
 		</div>
 	{/if}
 {/if}
